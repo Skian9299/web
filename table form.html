@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Formating tables using forms</title>
+ </head>
+ <body>
+    <form>
+        <fieldset>
+        </br>
+        <table border="1">
+            <tr>
+                <th colspan="4">Personal Details</th>
+            </tr>
+            <td>salutation:</td>
+            <td>
+                <select>
+                    <option>mr</option>
+                    <option>mrs</option>
+                    <option>ms</option>
+                </select>
+            </td>
+            <td colspan="2">
+                Name:<input type="text"name ="Name">
+            </td>
+            <tr>
+              <td>Gender:</td> 
+              <td><input type="radio"name="radio button">male</td></td> 
+              <td><input type="radio" name="radiobutton">female</td></td>
+              <td>
+                D.O.B:<input type="date" name="Date"/>
+            </td>
+            <tr>
+                <td>Email:
+                <td colspan="2"><input type="email"/>td>
+                    <td rowspan="3">Description:</td>br>textarea id="text" name=description row="10" cols="15"></textarea> </td>
+
+            </tr>
+            <tr>
+                <td colspan="3">Do you wish to get email advert?</br>
+                    Yes</input>
+                    <input type="checkbox" name="checkbox"
+                    No</input>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="submit name="submit">/td>
+            </tr>
+            </tr>
+
+        </table>
+        </fieldset>
+    </form>
+ </body>   
+</html>
